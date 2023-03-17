@@ -26,3 +26,5 @@ def test_two_sum():
         result = two_sum(nums, target)
         if result != expected:
             print(f"Test failed for input ({nums}, {target}). Expected {expected}, but got {result}.")
+            
+            
