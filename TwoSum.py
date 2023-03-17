@@ -11,6 +11,7 @@ def two_sum(nums, target):
             return [complementIndex, i]
         numMap[nums[i]] = i
     raise ValueError("No two sum solution")
+    
 
 def test_two_sum():
     test_cases = [
@@ -26,3 +27,5 @@ def test_two_sum():
         result = two_sum(nums, target)
         if result != expected:
             print(f"Test failed for input ({nums}, {target}). Expected {expected}, but got {result}.")
+            
+            
