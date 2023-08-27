@@ -24,6 +24,7 @@ public class AddBinary {
     }
 
     public static void testAddBinary() {
+        
         String[][] testCases = {
             {"11", "1"},
             {"1010", "1011"},
@@ -31,6 +32,7 @@ public class AddBinary {
             {"111", "111"},
             {"10", "101"}
         };
+
         String[] expectedResults = {
             "100",
             "10101",
