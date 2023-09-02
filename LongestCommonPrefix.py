@@ -1,4 +1,5 @@
 def longest_common_prefix(strs):
+
     # Return early on empty input
     if not strs:
         return ""
@@ -33,7 +34,6 @@ def test_longest_common_prefix():
             "input": [],
             "expected_output": ""
         },
-        # add more test cases here
     ]
 
     for i, test_case in enumerate(test_cases):
