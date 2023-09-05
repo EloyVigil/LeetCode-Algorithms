@@ -17,6 +17,7 @@ def longest_common_prefix(strs):
 
 
 def test_longest_common_prefix():
+    
     test_cases = [
         {
             "input": ["flower", "flow", "flight"],
